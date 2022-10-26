@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Carousel</title>
+    <link rel="stylesheet" href="./css/analogTimer.css" />
+    <link rel="stylesheet" href="./css/body.css" />
+    <link rel="stylesheet" href="./css/digital-timer.css" />
+    <link rel="stylesheet" href="./css/imageCarousel.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <input id="entertime" type="text" placeholder="Input time" />
+        <button id="start">START</button>
+      </div>
+      <div id="digital">
+        <div class="main">
+          <div>
+            <p id="countdownTimer"></p>
+          </div>
+          <div>
+            <button class="reset">RESET</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="analog">
+        <div id="clock">
+          <div id="hand"></div>
+        </div>
+        <button id="reset">RESET</button>
+      </div>
+ 
+        <div id="carousel">
+            <div class="carousel-reset">
+              <button id="carousel-reset-button">RESET</button>
+            </div>
+            <div class="carousel-nav-bar">
+              <span class="carousel-nav-dot selected"></span>
+              <span class="carousel-nav-dot"></span>
+              <span class="carousel-nav-dot"></span>
+            </div>
+            <div class="items">
+                <img src="./images/1.jpeg" class="carousel-image current" alt="Image 1">
+                <img src="./images/2.jpeg" class="carousel-image next" alt="Image 2">
+                <img src="./images/3.jpg" class="carousel-image" alt="Image 3">
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

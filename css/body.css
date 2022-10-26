@@ -1,0 +1,39 @@
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: black;
+  font-size: 2vh;
+}
+#container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#header {
+  text-align: center;
+  flex-basis: 100vw;
+  height: 15vh;
+}
+
+#digital, #analog {
+  flex-grow: 1;
+  height: 35vh;
+}
+
+#carousel {
+  flex-basis: 100vw;
+  height: 50vh;
+}
+
+button {
+  font-size: 1em;
+  border-radius: 8px;
+  background-color: lightsteelblue;
+  color: black;
+}
+
+button:hover {
+  transform: scale(1.05) translateY(-2px);
+  box-shadow: 0px 3px 3px rgb(215, 39, 39);
+}

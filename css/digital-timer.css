@@ -1,0 +1,13 @@
+#countdownTimer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: red;
+  font-size: 7vh;
+}
+
+#digital {
+  text-align: center;
+}
+
+.reset {
+  margin: 5vh;
+}
